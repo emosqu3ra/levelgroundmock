@@ -2,3 +2,32 @@ body, html {
     margin: 0;
     padding: 0;
 }
+
+body main {
+    background-color: rgb(102, 118, 138);
+    height: 400px;
+    width: 100%;
+    color: white;
+}
+
+.why {
+    background-color: white;
+    color: black;
+    height: 250px;
+}
+
+section + section {
+    background-color: rgb(219, 223, 226);
+    height: 450px;
+}
+
+.volunteer {
+    background-color: white;
+    color: black;
+    height: 300px;
+}
+
+footer {
+    background-color: rgb(22, 31, 42);
+    height: 200px;
+}
