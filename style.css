@@ -64,15 +64,32 @@ section h6 {
 }
 
 /* SECTIONS */
+
 .why {
     background-color: white;
     color: black;
     height: 250px;
 }
 
-section + section {
+.gray {
     background-color: rgb(219, 223, 226);
-    height: 450px;
+    height: 550px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    gap: 0px;
+    margin: auto;
+}
+
+.btn {
+    background-color: transparent;
+    border-radius: 3px;
+    padding: 12px;
+    border: .5px solid black;
 }
 
 .volunteer {
